@@ -1,3 +1,3 @@
-#react-with-animation-example
+# react-with-animation-example
 
-## Showing the usage of https://github.com/SmallImprovements/react-with-animation
+Showing the usage of https://github.com/SmallImprovements/react-with-animation
