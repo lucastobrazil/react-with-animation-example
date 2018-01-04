@@ -1,0 +1,28 @@
+.ExampleContent {
+    display: flex;
+    flex-wrap: wrap;
+}
+.ExampleContent-section {
+    flex: 0 1 50%;
+    padding: 30px 20px;
+    box-sizing: border-box;
+}
+
+.ExampleContent-element {
+    display: inline-block;
+    padding: 20px 70px;
+    background-color: #BDCADB;
+    border-radius: 3px;
+    box-shadow: 0 0 6px rgba(0,0,0,0.6);
+}
+
+.ExampleContent-animated {
+  animation-name: animated;
+  animation-timing-function: ease;
+}
+
+@keyframes animated {
+  0% { transform: translate3d(0, 0, 0); }
+  50% { transform: perspective(500px) translate3d(10px, -10px, 20px); }
+  100% { transform: translate3d(0, 0, 0); }
+}
