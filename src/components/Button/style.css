@@ -10,8 +10,14 @@
     transition: all .3s ease;
 }
 
-.Button:hover {
+.Button:hover, .Button:focus {
     background-color: #00293c;
     color: #fff;
     opacity: 1;
+}
+
+.Button:focus {
+    outline: none;
+    border: 1px solid transparent;
+    box-shadow: inset 0 0 0 1px #fff;
 }
