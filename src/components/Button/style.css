@@ -1,5 +1,17 @@
 .Button {
-    background-color: 'red';
     border-radius: 3px;
     font-size: .8em;
+    background: transparent;
+    border: 1px solid #00293c;
+    opacity: 0.8;
+    color: #00293c;
+    cursor: pointer;
+    padding: 5px 30px;
+    transition: all .3s ease;
+}
+
+.Button:hover {
+    background-color: #00293c;
+    color: #fff;
+    opacity: 1;
 }

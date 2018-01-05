@@ -1,6 +1,9 @@
 .ExampleContent {
     display: flex;
     flex-wrap: wrap;
+    justify-content: center;
+    max-width: 640px;
+    margin: 0 auto;
 }
 .ExampleContent-section {
     flex: 0 1 50%;
@@ -10,10 +13,25 @@
 
 .ExampleContent-element {
     display: inline-block;
-    padding: 20px 70px;
-    background-color: #BDCADB;
+    position: relative;
+    padding: 40px 90px;
+    background-color: #f62a00;
+    color: #ffffff;
+    font-size: .8em;
     border-radius: 3px;
-    box-shadow: 0 0 6px rgba(0,0,0,0.6);
+    margin-bottom: 20px;
+}
+
+.ExampleContent-element:after {
+    content: " ";
+    position: absolute;
+    border: 5px solid #f62a00;
+    width: 0;
+    margin-top: -5px;
+    margin-left: -5px;
+    left: 50%;
+    top: 100%;
+    transform: rotate(45deg);
 }
 
 .ExampleContent-animated {
@@ -23,6 +41,6 @@
 
 @keyframes animated {
   0% { transform: translate3d(0, 0, 0); }
-  50% { transform: perspective(500px) translate3d(10px, -10px, 20px); }
+  50% { transform: perspective(500px) translate3d(0, -10px, 20px); }
   100% { transform: translate3d(0, 0, 0); }
 }
