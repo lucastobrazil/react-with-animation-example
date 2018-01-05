@@ -16,7 +16,7 @@ export default function ExampleContent() {
                 <p>Hint: open the console and watch as the CSS classes are added/removed at the end of the animation</p>
             </div>
             <Section>
-                <h2>Animation manually</h2>
+                <h2>Animate manually</h2>
                 <AnimationPlayer
                     className="ExampleContent-element"
                     animationClasses="ExampleContent-animated"
