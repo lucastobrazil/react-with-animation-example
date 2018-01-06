@@ -36,9 +36,6 @@ export default function ExampleContent() {
                     <strong>Note:</strong> This animation will only play once (refresh the page if you missed it!)
                 </small>
             </Section>
-            <Section>
-                <h2>Coming soon: set animation-iteration-count</h2>
-            </Section>
         </div>
     );
 }
