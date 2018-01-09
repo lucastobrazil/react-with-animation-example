@@ -3,6 +3,7 @@ import './ExampleContent.css';
 import AnimationPlayer from '../AnimationPlayer';
 import { ExampleAutoPlay } from './content';
 import Section from './section';
+import { WithAnimationContainer } from 'react-with-animation';
 
 export default function ExampleContent() {
     return (
@@ -35,6 +36,13 @@ export default function ExampleContent() {
                 <small>
                     <strong>Note:</strong> This animation will only play once (refresh the page if you missed it!)
                 </small>
+            </Section>
+            <Section>
+                <h2>Wrapper instead of HOC</h2>
+                <WithAnimationContainer animationClasses="ExampleContent-animated" animateOnFirstRender={true}>
+                    <div className="ExampleContent-element">WithAnimationContainer</div>
+                </WithAnimationContainer>
+                <small>Animation classes placed on a wrapper, children passed in</small>
             </Section>
         </div>
     );

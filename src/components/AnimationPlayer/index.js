@@ -1,4 +1,4 @@
-import withAnimation from 'react-with-animation';
+import { withAnimation } from 'react-with-animation';
 import React from 'react';
 import Button from '../Button';
 import { BasicExampleContent } from '../ExampleContent/content';
