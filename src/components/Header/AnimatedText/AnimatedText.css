@@ -1,0 +1,36 @@
+.AnimatedText {
+    position: relative;
+}
+
+.AnimatedText:hover .AnimatedText-button {
+    opacity: 1;
+}
+.AnimatedText:hover .AnimatedText-button:hover {
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+.AnimatedText-button {
+    position: absolute;
+    right: 0;
+    top: 0;
+    background: none;
+    opacity: .3;
+    color: white;
+    font-size: 1.2em;
+    border: 0;
+    outline: none;
+    transition: all .3s ease;
+}
+
+.AnimatedText-animating {
+    animation-name: expandText;
+    animation-timing-function: ease;
+}
+
+@keyframes expandText {
+    50% {
+        opacity: 0.7;
+        letter-spacing: 3px;
+    }
+}
