@@ -1,11 +1,12 @@
 import React, { Component } from 'react';
 import ExampleContent from './components/ExampleContent';
+import Header from './components/Header';
 
 class App extends Component {
     render() {
         return (
             <main>
-                <h1>react-with-animation example</h1>
+                <Header />
                 <ExampleContent />
             </main>
         );

@@ -2,16 +2,16 @@
     border-radius: 3px;
     font-size: .7em;
     background: transparent;
-    border: 1px solid #00293c;
+    border: 1px solid #212121;
     opacity: 0.8;
-    color: #00293c;
+    color: #212121;
     cursor: pointer;
     padding: 5px 30px;
     transition: all .3s ease;
 }
 
 .Button:hover, .Button:focus {
-    background-color: #00293c;
+    background-color: #212121;
     color: #fff;
     opacity: 1;
 }
