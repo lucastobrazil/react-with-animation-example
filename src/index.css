@@ -39,6 +39,22 @@ h2 {
 }
 
 pre {
-  overflow-x: scroll;
-  color: #666;
+    width: 150%;
+    margin-left: -25%;
+    font-size: 1em;
+}
+
+pre,
+code {
+  color: #17d382;
+}
+
+
+@media (max-width: 850px) {
+    pre {
+      width: 100%;
+      overflow-x: scroll;
+      margin-left: 0;
+      text-overflow: ellipsis;
+    }
 }

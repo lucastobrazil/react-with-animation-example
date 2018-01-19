@@ -28,6 +28,17 @@ export default function Motivation() {
                     animations into your already-existing components, without needing to add change them or add all the
                     boilerplate code each time.
                 </p>
+
+                <p>
+                    Read more on{' '}
+                    <a
+                        href="https://github.com/SmallImprovements/react-with-animation"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                    >
+                        the project on GitHub ➚
+                    </a>
+                </p>
             </div>
         </section>
     );
