@@ -14,11 +14,13 @@ export default function Motivation() {
                     <pre>$('#myThing').addClass('animateMe').delay(3000).removeClass('animateMe');</pre>
                 </p>
                 <p>
-                    In React, the <code>$('#myThing')</code>selector part is a bit different. Because React is
-                    declarative in nature, we need a component that can handle imperatively telling React which
-                    component we want to add (and remove) the CSS classes to. That's what this react-with-animation does
-                    - it 'wraps' your component so that it always knows where it is in the React DOM, and can apply and
-                    remove the animation when it's done.
+                    In React, the <code>$('#myThing')</code>selector part is a bit different.
+                </p>
+                <p>
+                    Because React is declarative in nature, we need a component that can handle imperatively telling
+                    React which component we want to add (and remove) the CSS classes to. That's what this
+                    react-with-animation does - it 'wraps' your component so that it always knows where it is in the
+                    React DOM, and can apply and remove the animation when it's done.
                 </p>
 
                 <p>
