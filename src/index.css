@@ -19,6 +19,8 @@ a:hover {
 
 p {
   font-size: .8em;
+  line-height: 1.9;
+  margin-bottom: 1.4em;
 }
 
 small {
@@ -34,4 +36,9 @@ h1 {
 h2 {
   font-size: 1em;
   font-weight: 500;
+}
+
+pre {
+  overflow-x: scroll;
+  color: #666;
 }

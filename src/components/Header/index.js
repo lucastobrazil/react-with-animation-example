@@ -6,7 +6,7 @@ export default function Header() {
     return (
         <header className="Header">
             <div className="Header-inner">
-                <AnimatedText />
+                <AnimatedText>React with Animation</AnimatedText>
                 {/* <AnimatedHeaderText animationClasses="Header-text-animated" /> */}
                 <h2>A Component and a Higher-Order-Component to manage short-lived CSS animations in React</h2>
             </div>

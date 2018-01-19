@@ -8,9 +8,10 @@ import { WithAnimationContainer } from 'react-with-animation';
 export default function ExampleContent() {
     return (
         <div className="ExampleContent">
-
             <p>There are a few ways to use it:</p>
-            <small>Hint: open the console and watch as the CSS classes are added/removed at the end of the animation</small>
+            <small>
+                Hint: open the console and watch as the CSS classes are added/removed at the end of the animation
+            </small>
             <Section>
                 <h2>Animate manually</h2>
                 <AnimationPlayer
@@ -37,7 +38,10 @@ export default function ExampleContent() {
                 <WithAnimationContainer animationClasses="ExampleContent-animated" animateOnFirstRender={true}>
                     <div className="ExampleContent-element">WithAnimationContainer</div>
                 </WithAnimationContainer>
-                <small>Animation classes placed on a wrapper, children passed in. Check <a href="https://github.com/SmallImprovements/react-with-animation">the docs</a>.</small>
+                <small>
+                    Animation classes placed on a wrapper, children passed in. Check{' '}
+                    <a href="https://github.com/SmallImprovements/react-with-animation">the docs</a>.
+                </small>
             </Section>
         </div>
     );

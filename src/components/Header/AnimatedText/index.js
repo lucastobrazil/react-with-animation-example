@@ -1,12 +1,9 @@
 import { withAnimation } from 'react-with-animation';
 import React from 'react';
 import './AnimatedText.css';
-<h1>React with Animation</h1>;
 
-export const HeaderText = ({ className, style }) => (
-    <h1 className={className} style={style}>
-        React with Animation
-    </h1>
+export const HeaderText = ({ className, style, children }) => (
+    <h1 className={className} style={style} children={children} />
 );
 
 export default class AnimationPlayer extends React.Component {
@@ -21,6 +18,7 @@ export default class AnimationPlayer extends React.Component {
     };
 
     render() {
+        const { children } = this.props;
         const TextWithAnimation = withAnimation(HeaderText);
 
         return (
@@ -29,7 +27,9 @@ export default class AnimationPlayer extends React.Component {
                     animationClasses="AnimatedText-animating"
                     animateOnFirstRender={true}
                     ref={this.setAnimatedComponentRef}
-                />
+                >
+                    {children}
+                </TextWithAnimation>
                 <button className="AnimatedText-button" onClick={this.start}>
                     ⟲
                 </button>
