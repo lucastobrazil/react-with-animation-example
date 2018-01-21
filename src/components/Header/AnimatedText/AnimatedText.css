@@ -26,6 +26,7 @@
 .AnimatedText-animating {
     animation-name: expandText;
     animation-timing-function: ease;
+    animation-duration: 3000ms;
 }
 
 @keyframes expandText {

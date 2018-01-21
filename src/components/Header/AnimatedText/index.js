@@ -2,8 +2,8 @@ import { withAnimation } from 'react-with-animation';
 import React from 'react';
 import './AnimatedText.css';
 
-export const HeaderText = ({ className, style, children }) => (
-    <h1 className={className} style={style} children={children} />
+export const HeaderText = ({ className, onAnimationEnd, children }) => (
+    <h1 className={className} onAnimationEnd={onAnimationEnd} children={children} />
 );
 
 export default class AnimationPlayer extends React.Component {
