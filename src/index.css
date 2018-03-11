@@ -54,6 +54,5 @@ code {
         width: 100%;
         overflow-x: scroll;
         margin-left: 0;
-        /* text-overflow: ellipsis; */
     }
 }
