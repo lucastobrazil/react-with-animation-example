@@ -9,7 +9,7 @@
   "dependencies": {
     "react": "^15.3.0",
     "react-dom": "^15.3.0",
-    "react-with-animation": "^1.0.17"
+    "react-with-animation": "^1.0.30"
   },
   "scripts": {
     "start": "react-scripts start",
